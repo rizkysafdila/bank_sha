@@ -10,15 +10,11 @@ class SignUpSetProfilePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: lightBackgroundColor,
-        foregroundColor: blackColor,
-        elevation: 0,
-        toolbarHeight: 70,
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(),
           icon: const Icon(
             Icons.chevron_left,
-            size: 28,
+            size: 30,
           ),
         ),
       ),

@@ -1,7 +1,6 @@
-import 'package:flutter/material.dart';
 import 'package:bank_sha/shared/theme.dart';
 import 'package:bank_sha/ui/widgets/buttons.dart';
-import 'package:bank_sha/ui/widgets/forms.dart';
+import 'package:flutter/material.dart';
 
 class SignUpSetKtpPage extends StatelessWidget {
   const SignUpSetKtpPage({super.key});
@@ -10,15 +9,11 @@ class SignUpSetKtpPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: lightBackgroundColor,
-        foregroundColor: blackColor,
-        elevation: 0,
-        toolbarHeight: 70,
         leading: IconButton(
           onPressed: () => Navigator.of(context).pop(),
           icon: const Icon(
             Icons.chevron_left,
-            size: 28,
+            size: 30,
           ),
         ),
       ),
